@@ -1,0 +1,63 @@
+.Header {
+    max-width: auto;
+    max-height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 10px solid red;
+    background-color: rgb(49,49,49)
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    max-height: 72px;
+}
+
+.logo-left{
+    display: flex;
+    align-items: center;
+    height: 72px;
+    width: 10%;
+    border: 10px solid blue;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 10px;
+    height: 72px;
+    width: 60%;
+    border: 10px solid green;
+}
+
+.profile-right {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    height: 72px;
+    width: 20%;
+    right: 0;
+    border: 10px solid yellow;
+}
+
+.nav-profile {
+    margin: 10px;
+}
+
+.nav-container a{
+    text-decoration: none;
+    color: white; 
+    margin-left: 10px;
+    font-weight: 700;
+}
+.nav-container a:hover{
+    color: rgb(197,41,41); 
+}
+
+::placeholder {
+    color: white;
+}
+
+
