@@ -4,11 +4,12 @@ import AutoComplete from "./Autocomplete";
 import PersonIcon from '@mui/icons-material/Person';
 
 
-function Header() {
+
+function Header({ top100Films }) {
   return (
       <header className="Header">
         <div className="logo-left">
-            <a href="/"><img alt='logo' className="header-logo" src={require('../img/logo.png')} /></a>
+            <a href="/"><img alt='logo' className="header-logo" src={require('../../img/logo.png')} /></a>
         </div>
         <div className="nav-container">
             <a className="nav-link" href="/Novels">Series</a>
@@ -17,7 +18,7 @@ function Header() {
         </div>
         <div className="profile-right">
             <div>
-                <AutoComplete/>
+                <AutoComplete top100Films={top100Films}/>
             </div>
             <button className="nav-profile">
               <PersonIcon/>

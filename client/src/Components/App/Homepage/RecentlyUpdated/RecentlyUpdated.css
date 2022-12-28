@@ -1,0 +1,8 @@
+.RecentlyUpdated {
+    width: auto;
+    height: 492px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 10px solid darkolivegreen;
+}

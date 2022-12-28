@@ -1,0 +1,9 @@
+.Banner {
+    width: 98.5%;
+    height: 492px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 10px solid peru;
+    background-color: cadetblue;
+}
